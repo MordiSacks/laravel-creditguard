@@ -14,7 +14,7 @@ class CreditGuardServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__ . '/config/creditguard.php' => config_path('creditguard.php'),
-        ]);
+        ], 'config');
     }
 
 
