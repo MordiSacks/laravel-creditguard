@@ -1,0 +1,33 @@
+{
+  "name": "any/laravel-creditguard",
+  "keywords": [
+    "creditguard",
+    "payments",
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mordi Sacks"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MordiSacks\\LaravelCreditGuard\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/support": "^5.5,<5.8",
+    "mordisacks/creditguard": "^1.0.1"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MordiSacks\\LaravelCreditGuard\\CreditGuardServiceProvider"
+      ],
+      "aliases": {
+        "CreditGuard": "MordiSacks\\LaravelCreditGuard\\CreditGuard"
+      }
+    }
+  }
+}
