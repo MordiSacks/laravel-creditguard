@@ -23,11 +23,11 @@ class CreditGuardServiceProvider extends ServiceProvider
         $this->app->singleton('creditguard', function ($app) {
             /** @var Application $app */
             return new CreditGuard(
-                config('creditguard.url'),
-                config('creditguard.user'),
-                config('creditguard.password'),
-                config('creditguard.terminal_id'),
-                config('creditguard.mid')
+                config('creditguard.url', ''),
+                config('creditguard.user', ''),
+                config('creditguard.password', ''),
+                config('creditguard.terminal_id', ''),
+                config('creditguard.mid', '')
             );
         });
     }
