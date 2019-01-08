@@ -13,7 +13,7 @@ class CreditGuardServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . 'config/creditguard.php' => config_path('creditguard.php'),
+            __DIR__ . '/config/creditguard.php' => config_path('creditguard.php'),
         ]);
     }
 
