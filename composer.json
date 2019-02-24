@@ -18,7 +18,7 @@
   },
   "require": {
     "illuminate/support": "^5.5,<5.8",
-    "mordisacks/creditguard": "^1.0.1"
+    "mordisacks/creditguard": "^1.0.4"
   },
   "extra": {
     "laravel": {
