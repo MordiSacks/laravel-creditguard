@@ -17,7 +17,7 @@
     }
   },
   "require": {
-    "illuminate/support": "^5.5|^6",
+    "illuminate/support": "~5|~6",
     "mordisacks/creditguard": "^1.0.4"
   },
   "extra": {
